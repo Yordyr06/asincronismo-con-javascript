@@ -7,7 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "callback-challenge": "node src/callback/callback-challenge"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Yordyr06/asincronismo-con-javascript.git"
@@ -22,6 +21,8 @@
   },
   "homepage": "https://github.com/Yordyr06/asincronismo-con-javascript#readme",
   "dependencies": {
+    "node-fetch": "^3.3.0",
     "xmlhttprequest": "^1.8.0"
-  }
+  },
+  "type": "module"
 }
