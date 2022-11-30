@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "callback-challenge": "node src/callback/callback-challenge"
   },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Yordyr06/asincronismo-con-javascript.git"
@@ -18,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Yordyr06/asincronismo-con-javascript/issues"
   },
-  "homepage": "https://github.com/Yordyr06/asincronismo-con-javascript#readme"
+  "homepage": "https://github.com/Yordyr06/asincronismo-con-javascript#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
