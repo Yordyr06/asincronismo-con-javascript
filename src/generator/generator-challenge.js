@@ -29,3 +29,5 @@ const gen = anotherFn(API);
 console.log(gen.next());
 console.log(gen.next());
 console.log(gen.next());
+console.log(gen.next());
+console.log(gen.next());
